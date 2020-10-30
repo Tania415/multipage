@@ -13,6 +13,9 @@ body{
   font-size: 16px;
   background: #55b9f3;
 }
+.body{
+ background:#fff;
+}
 
 .head{
 	padding: 20px 15px;
