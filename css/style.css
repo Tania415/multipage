@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,600;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  background: #55b9f3;
+}
+
+.head{
+	padding: 20px 15px;
+	background: #fff;
+    box-shadow: -1px -7px 16px 0px #3c3c3c;
+}
+
+.color{
+	color: black;
+	font-weight: 600;
+}
+.selected{
+	background: #333;
+	color: #fff;
+}
+
+header {
+	padding: 20px 0px;
+	background-image: url("../img/Laptop.jpg");
+	height: 60vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: rgba(0,0,0, .6);
+    background-blend-mode: multiply;
+    padding-bottom: 60px;
+}
+
+.container{
+	width: calc(100% - 200px);
+	margin: auto;
+}
+
+li {
+ list-style: none;
+ margin-left: 5px;
+ margin-right: 5px;
+
+}
+
+.flex {
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.justify-center{
+	justify-content: center;
+}
+
+.col-1 {
+	width: 100%;
+	flex: 0 0 auto;
+	padding: 100px;
+}
+
+.sign-text{
+	padding-bottom: 0px;
+}
+.col-2 {
+	width: 50%;
+	flex: 0 0 auto;
+	padding: 15px;
+}
+
+.padd-left {
+   padding-left: 100px;
+}
+
+.padd-right {
+    padding-right: 100px;
+}
+
+.logo {
+	width: 20%;
+	flex: 0 0 auto;
+}
+
+.logo a{
+	text-decoration: none;
+	color: white;
+} 
+.logo img{}
+
+/**navigation css**/
+nav {
+  width: 80%;
+  flex: 0 0 auto;
+}
+
+nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+
+nav ul li {}
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+    font-weight: lighter;
+    padding: 15px 20px;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+      background: black;
+      color: coral;
+}
+
+/** parah heading css **/
+.parah {
+	color: white;
+    padding: 140px;
+	font-weight: 500;
+}
+
+.parah span{
+	color: coral;
+}
+
+.parah p a {
+	background: white;
+	padding: 4px 5px;
+	color: coral;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.parah p a:hover{
+	background: coral;
+	color: white;
+}
+
+/** section blog **/
+
+section{
+	padding: 80px 0px;
+}
+
+/** signup section **/
+.signup-section{
+     font-size: 20px;
+    color: #000000ab;
+}
+
+.Sign-up{
+	width: 35%;
+	flex: 0 0 auto;
+	padding: 50px;
+	color: white;
+	background:#55b9f3;
+    box-shadow: 20px 20px 60px #489dcf, -20px -20px 60px #62d5ff;
+    transition-duration: 0.3s;
+}
+.Sign-up:hover{
+	 box-shadow: 20px 20px 60px #62d5ff, 
+	            -20px -20px 60px #489dcf;
+}
+
+/*** signup form ***/
+form{}
+
+form input, form textarea{
+	width: 100%;
+	padding: 20px 15px;
+	border: 1px solid #fff;
+	color: #fff;
+	background: #faebd71f;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    
+
+}
+
+form label{
+	font-size: 18px;
+	margin-right: 15px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+form strong{
+	display: block;
+	font-size: 22px;
+	font-weight: 500;
+	margin: 20px 0 5px;
+}
+
+form textarea{}
+form input[type="radio"],
+form input[type="checkbox"]
+{
+         width: auto;
+}
+
+form input[type="submit"]{
+    width: auto;
+    text-transform: uppercase;
+    background: #00BCD4;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+form p{
+  letter-spacing: 1px;
+}
+
+form p a{
+	font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+form p a:hover{}
+input:focus, textarea:focus{
+	outline: none;
+	background: #00BCD4;
+}
+/*** signup form ***/
+
+span.text{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.blog-section {
+	font-size: 25px;
+    color: #000000ab;
+}
+
+section span{
+	padding: 15px;
+}
+
+.tag-1{
+	display: block;
+    font-weight: 700;
+    text-align: center;
+}
+
+section h1{
+	border-bottom: 1px solid lightgrey;
+}
+/**about section**/
+.about-section{}
+.about-section h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+}
+.about-section p{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 1.7;
+}
+.about-section img{
+     width: 40%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 1200px;
+}
+
+.about-section h2 strong{
+	font-weight: 500;
+}
+/**about section end**/
+
+article {}
+.anchor{
+	padding: 16px;
+}
+
+.anchor a {
+	display: block;
+    padding: 10px 10px;
+    background: #0000000d;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #8080808f;
+    object-fit: cover;
+	object-position: top; 
+}
+
+.anchor a:hover{}
+article span {
+	text-transform: uppercase;
+    color: #3333338c;
+    display: block;
+}
+
+article a {
+	text-decoration: none;
+    color: #3333338c;
+}
+
+.project{
+	display: block;
+}
+
+.project img {
+	width: 100%;
+	height: 300px;
+	border-radius: 10px;
+	object-fit: cover; 
+}
+
+figcaption{
+	font-size: 20px;
+	color: black;
+}
+
+/** footer section **/
+
+footer {
+	background-color: #fafbfc;
+}
+footer .col-2 {
+    padding: 25px 90px;
+}
+
+ul.footer-item {}
+ul.footer-item li {}
+ul.footer-item  li a {
+   color: #0000009e;
+   display: block;
+   padding: 6px 15px;
+   font-size: 16px;
+   text-transform: initial;
+   text-decoration: none;
+}
+ul.footer-item li a input{
+	display: inline-block;
+    padding: 8px;
+    margin: 6px;
+}
+
+ul.icon-link {
+	justify-content: flex-end;
+}
+ul.icon-link li{}
+ul.icon-link li span{
+	color: #0000009e;
+    display: block;
+    padding-left: 20px;
+    font-size: 16px;
+    text-transform: initial;
+}
+ul.icon-link li a{
+	color: #0000009e;
+   display: block;
+   padding-left: 20px;;
+   font-size: 18px;
+   text-transform: initial;
+   text-decoration: none;
+}
+ul.icon-link li a:hover{
+	color: #2b2a2a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
